@@ -4,12 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootNativeQuerryApplication {
+public class CrudeOperationSpringBootMysqlApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootNativeQuerryApplication.class, args);
+		SpringApplication.run(CrudeOperationSpringBootMysqlApplication.class, args);
 	}
-
-
 
 }

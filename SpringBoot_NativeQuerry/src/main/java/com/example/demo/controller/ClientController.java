@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 import com.example.demo.model.Client;
 
 import com.example.demo.service.ClientService;
@@ -42,5 +43,6 @@ public class ClientController {
 		List<Client> client = clientservice.getListByClient(Solution);
 		return ResponseEntity.ok().body(client);
 	}
+
 
 }
