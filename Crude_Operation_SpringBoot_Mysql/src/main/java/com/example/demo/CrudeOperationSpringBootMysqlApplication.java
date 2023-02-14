@@ -10,4 +10,10 @@ public class CrudeOperationSpringBootMysqlApplication {
 		SpringApplication.run(CrudeOperationSpringBootMysqlApplication.class, args);
 	}
 
+// Spring boot main class add this from 3.0.2 version
+
+protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+		return builder.sources(ClientDatabaseApplication.class);
+	}
+
 }
